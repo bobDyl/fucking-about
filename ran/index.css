@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.ranCookie{
+/* this will position the top left corner of the image to the centre */
+/* position: absolute;
+top: 50%; 
+left: 50%; */
+
+/* the below makes the centre of the img the centre */
+/* transform: translate(-50%, -50%); */
+}
+
+.counter{
+    position: relative;
+}
+
+.navBar{
+    color: red;
+}
+
+.sparkles {
+background: #C31DCF;
+background: -webkit-linear-gradient(to right, #C31DCF 0%, #3030CF 100%);
+background: -moz-linear-gradient(to right, #C31DCF 0%, #3030CF 100%);
+background: linear-gradient(to right, #C31DCF 0%, #3030CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.mainBody {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.cookieArea {
+    margin: 20px;
+}
+
+.powerUpsContainer {
+    /* position: absolute;
+    top: 50%; 
+    right: 100px;
+    height: 500px;*/
+    background-color: red; 
+    width: 210px;
+}
+.powerUpsContainer button {
+    height: 10%;
+    width: 200px;
+}
+
+.passivesContainer {
+    /* position: absolute;
+    top: 50%; 
+    left: 100px;
+    height: 500px; */
+    background-color: green;
+    width: 210px;
+}
+
+.passivesContainer button {
+    height: 10%;
+    width: 200px;
+}
